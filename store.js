@@ -1,3 +1,4 @@
+#! /usr/bin/node
 var key = process.argv[3]; 
 var value = process.argv[4]; 
 var functionvar = process.argv[2];
