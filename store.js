@@ -1,8 +1,14 @@
 #! /usr/bin/node
+var http = require('http')
 var key = process.argv[3]; 
 var value = process.argv[4]; 
 var functionvar = process.argv[2];
 const fs = require('fs');
+
+http.createServer(function(request, response){
+response.writeHead(200, {"Content-Type": "text/plain"})
+response.end("Hello World\n")
+}).listen(process.env.PORT)
 
 function add(keyval,valueval) {
     let writeStream = fs.createWriteStream('secret.txt',{ 'flags': 'a'});

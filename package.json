@@ -1,0 +1,20 @@
+{
+  "name": "code-challenge-1-nodejs",
+  "version": "1.0.0",
+  "description": "### Goal Clone this repo and build a simple dictionary key/value store script using only core NodeAPI and ECMAScript 5 or 6.   Store the key/value dictionary using filesystem. The client should be a standalone terminal tool. Once you have finished the challenge email the completed zip or link to a git repo of your choice.",
+  "main": "store.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node store.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deenaahmed/code-challenge-1-nodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deenaahmed/code-challenge-1-nodeJs/issues"
+  },
+  "homepage": "https://github.com/deenaahmed/code-challenge-1-nodeJs#readme"
+}
